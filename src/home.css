@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.icons {
+  font-size: 1.5rem;
+  /* margin-left: auto; */
+}
+.App {
+  background-color: #3e2051;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* margin-top: 2rem; */
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(182, 177, 177);
+  min-height: 70vh;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "t t t c c c c c c c c c ";
+}
+.cards {
+  /* background-color: red;
+   */
+  /* width: 100%; */
+  grid-area: c;
+  /* background-color: green; */
+  display: grid;
+}
+h1 {
+  grid-area: t;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.suter {
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  /* border: 2px solid black; */
+  box-shadow: 0.2rem 0.2rem 1rem rgb(110, 106, 106);
+}
